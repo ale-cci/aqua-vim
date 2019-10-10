@@ -1,4 +1,4 @@
-highlight clear
+hi clear
 if exists("syntax_on")
     syntax reset
     set background=dark
