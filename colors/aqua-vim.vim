@@ -43,4 +43,7 @@ if exists("syntax_on")
     hi PmenuSel ctermfg=white cterm=bold
     hi PmenuSbar ctermbg=244
     hi PmenuThumb ctermbg=white
+
+    " Cursorline colors
+    hi Cursorline cterm=bold ctermbg=233
 endif
