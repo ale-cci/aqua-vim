@@ -9,7 +9,7 @@ if exists("syntax_on")
     hi String ctermbg=NONE ctermfg=106 cterm=NONE
     hi Function ctermbg=NONE ctermfg=106 cterm=bold
     hi Statement ctermbg=NONE ctermfg=160 cterm=NONE
-    hi Operator ctermbg=NONE ctermfg=white
+    hi Operator ctermbg=NONE ctermfg=160
     hi PreProc ctermbg=NONE ctermfg=36
     hi Type ctermbg=NONE ctermfg=214
     hi StorageClass ctermbg=NONE ctermfg=208
