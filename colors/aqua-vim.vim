@@ -40,9 +40,10 @@ if exists("syntax_on")
 
     " Pmenu
     hi Pmenu ctermbg=23
-    hi PmenuSel ctermfg=white cterm=bold
+    hi PmenuSel ctermbg=black ctermfg=36 cterm=reverse
     hi PmenuSbar ctermbg=244
     hi PmenuThumb ctermbg=white
+
 
     " Cursorline colors
     hi Cursorline cterm=bold ctermbg=233
