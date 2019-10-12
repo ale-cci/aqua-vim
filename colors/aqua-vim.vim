@@ -52,4 +52,6 @@ if exists("syntax_on")
     hi DiffAdd ctermbg=23
     hi DiffText ctermbg=180 ctermfg=0 cterm=NONE
 
+    " Lexplore directory color
+    hi Directory ctermfg=36
 endif
