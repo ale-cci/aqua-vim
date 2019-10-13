@@ -55,5 +55,5 @@ if exists("syntax_on")
 
     " Lexplore directory color
     hi Directory ctermfg=36
-
+    hi Identifier cterm=NONE ctermfg=45
 endif
