@@ -46,7 +46,7 @@ if exists("syntax_on")
 
 
     " Cursorline colors
-    hi Cursorline cterm=bold ctermbg=233
+    hi CursorLine cterm=bold ctermbg=233
 
     hi DiffDelete ctermbg=88
     hi DiffAdd ctermbg=23
