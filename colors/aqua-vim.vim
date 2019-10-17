@@ -15,6 +15,8 @@ if exists("syntax_on")
     hi StorageClass ctermbg=NONE ctermfg=208
     hi Special ctermbg=NONE ctermfg=214
 
+    hi Boolean ctermfg=36 cterm=bold
+
     hi Error ctermbg=NONE ctermfg=124 cterm=reverse,bold
     hi Todo ctermbg=NONE ctermfg=15 cterm=bold,italic
     hi LineNr ctermbg=NONE ctermfg=23
