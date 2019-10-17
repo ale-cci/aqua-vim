@@ -4,16 +4,16 @@ if exists("syntax_on")
     set background=dark
     " let g:colors_name="my-theme"
 
-    hi Comment ctermbg=NONE ctermfg=244 cterm=italic
+    hi Comment ctermbg=NONE ctermfg=241 cterm=italic
     hi Constant ctermbg=NONE ctermfg=211 cterm=NONE
-    hi String ctermbg=NONE ctermfg=106 cterm=NONE
-    hi Function ctermbg=NONE ctermfg=36 cterm=bold
-    hi Statement ctermbg=NONE ctermfg=160 cterm=NONE
-    hi Operator ctermbg=NONE ctermfg=160
+    hi String ctermbg=NONE ctermfg=36 cterm=NONE
+    hi Function ctermbg=NONE ctermfg=105 cterm=NONE
+    hi Statement ctermbg=NONE ctermfg=202 cterm=NONE
+    hi Operator ctermbg=NONE ctermfg=15
     hi PreProc ctermbg=NONE ctermfg=105
-    hi Type ctermbg=NONE ctermfg=214
+    hi Type ctermbg=NONE ctermfg=208
     hi StorageClass ctermbg=NONE ctermfg=208
-    hi Special ctermbg=NONE ctermfg=208
+    hi Special ctermbg=NONE ctermfg=214
 
     hi Error ctermbg=NONE ctermfg=124 cterm=reverse,bold
     hi Todo ctermbg=NONE ctermfg=15 cterm=bold,italic
@@ -56,4 +56,10 @@ if exists("syntax_on")
     " Lexplore directory color
     hi Directory ctermfg=36
     hi Identifier cterm=NONE ctermfg=45
+
+    hi jsObjectKey ctermfg=147
+    hi vimHiCtermColor ctermfg=105
+    hi jsBuiltins  ctermfg=208
+    hi jsGlobalObjects ctermfg=208
+    hi javaOperator ctermfg=208
 endif
