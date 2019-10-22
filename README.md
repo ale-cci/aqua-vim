@@ -11,11 +11,14 @@ My custom vim colorscheme, inspired by [gruvbox](https://github.com/morhetz/gruv
 
 ```
 call plug#begin()
-...
-
 Plug 'ale-cci/aqua-vim'
-
-...
 call plug#end()
+
+colorscheme aqua-vim
 ```
+
+### No plugins:
+
+In your vimrc file:
+`:read !https://raw.githubusercontent.com/ale-cci/aqua-vim/master/colors/aqua-vim.vim`
 
