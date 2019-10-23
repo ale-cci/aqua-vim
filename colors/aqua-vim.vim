@@ -64,4 +64,5 @@ if exists("syntax_on")
     hi jsBuiltins  ctermfg=208
     hi jsGlobalObjects ctermfg=208
     hi javaOperator ctermfg=208
+    hi javaCommentTitle ctermfg=23
 endif
