@@ -14,7 +14,9 @@ if exists("syntax_on")
     hi Type ctermbg=NONE ctermfg=208
     hi StorageClass ctermbg=NONE ctermfg=208
     hi Special ctermbg=NONE ctermfg=214
+    hi SpecialComment ctermfg=23
 
+    hi Ignore ctermfg=238
     hi Boolean ctermfg=36 cterm=bold
 
     hi Error ctermbg=NONE ctermfg=124 cterm=reverse,bold
@@ -64,5 +66,5 @@ if exists("syntax_on")
     hi jsBuiltins  ctermfg=208
     hi jsGlobalObjects ctermfg=208
     hi javaOperator ctermfg=208
-    hi javaCommentTitle ctermfg=23
+    hi phpSpecialFunction ctermfg=160 cterm=bold
 endif
