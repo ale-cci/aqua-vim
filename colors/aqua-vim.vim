@@ -4,7 +4,7 @@ if exists("syntax_on")
     set background=dark
     " let g:colors_name="my-theme"
 
-    hi Comment ctermbg=NONE ctermfg=241 cterm=italic
+    hi Comment ctermbg=NONE ctermfg=241
     hi Constant ctermbg=NONE ctermfg=211 cterm=NONE
     hi String ctermbg=NONE ctermfg=36 cterm=NONE
     hi Function ctermbg=NONE ctermfg=105 cterm=NONE
@@ -20,7 +20,7 @@ if exists("syntax_on")
     hi Boolean ctermfg=36 cterm=bold
 
     hi Error ctermbg=NONE ctermfg=124 cterm=reverse,bold
-    hi Todo ctermbg=NONE ctermfg=15 cterm=bold,italic
+    hi Todo ctermbg=NONE ctermfg=15 cterm=bold
     hi LineNr ctermbg=NONE ctermfg=23
     hi CursorLineNr ctermbg=NONE ctermfg=36 cterm=reverse,bold
     hi MatchParen ctermbg=36 ctermfg=black
@@ -31,6 +31,7 @@ if exists("syntax_on")
     hi StatusLineTerm ctermbg=36 ctermfg=black cterm=NONE
     hi StatusLineTermNc ctermbg=23 ctermfg=black cterm=NONE
 
+
     " Tabline Colors
     hi Tabline ctermbg=23 cterm=NONE
     hi TablineSel ctermbg=black cterm=bold
@@ -39,7 +40,7 @@ if exists("syntax_on")
     " Visual Selection
     hi Visual ctermfg=white ctermbg=236
 
-    hi Folded ctermfg=23 ctermbg=black cterm=italic,bold
+    hi Folded ctermfg=23 ctermbg=black cterm=bold
     hi VertSplit ctermbg=black ctermfg=238 cterm=NONE
 
     " Pmenu
@@ -50,7 +51,8 @@ if exists("syntax_on")
 
 
     " Cursorline colors
-    hi CursorLine cterm=bold ctermbg=233
+    hi CursorLine ctermbg=233 cterm=NONE
+    hi ColorColumn ctermbg=233
 
     hi DiffDelete ctermbg=88
     hi DiffAdd ctermbg=23
