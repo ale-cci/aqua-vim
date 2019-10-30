@@ -51,7 +51,8 @@ if exists("syntax_on")
 
 
     " Cursorline colors
-    hi CursorLine ctermbg=233 cterm=NONE
+    hi CursorLine ctermbg=234 cterm=NONE
+    hi CursorColumn ctermbg=234 cterm=NONE
     hi ColorColumn ctermbg=233
 
     hi DiffDelete ctermbg=88
