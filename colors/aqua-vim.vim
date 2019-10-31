@@ -40,7 +40,7 @@ if exists("syntax_on")
     " Visual Selection
     hi Visual ctermfg=white ctermbg=236
 
-    hi Folded ctermfg=23 ctermbg=black cterm=bold
+    hi Folded ctermfg=23 ctermbg=black cterm=NONE
     hi VertSplit ctermbg=black ctermfg=238 cterm=NONE
 
     " Pmenu
