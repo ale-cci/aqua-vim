@@ -70,4 +70,5 @@ if exists("syntax_on")
     hi jsGlobalObjects ctermfg=208
     hi javaOperator ctermfg=208
     hi phpSpecialFunction ctermfg=160 cterm=bold
+    hi pythonOperator ctermfg=202
 endif
