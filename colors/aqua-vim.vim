@@ -49,11 +49,12 @@ if exists("syntax_on")
     hi PmenuSbar ctermbg=244
     hi PmenuThumb ctermbg=white
 
+    hi Search ctermbg=214 ctermfg=black cterm=none
 
     " Cursorline colors
     hi CursorLine ctermbg=234 cterm=NONE
     hi CursorColumn ctermbg=234 cterm=NONE
-    hi ColorColumn ctermbg=53
+    hi ColorColumn ctermbg=234 ctermfg=196 cterm=NONE
 
     hi DiffDelete ctermbg=88
     hi DiffAdd ctermbg=23
