@@ -5,11 +5,11 @@ if exists("syntax_on")
     " let g:colors_name="my-theme"
 
     hi Comment ctermbg=NONE ctermfg=241
-    hi Constant ctermbg=NONE ctermfg=199 cterm=NONE
+    hi Constant ctermbg=NONE ctermfg=204 cterm=NONE
     hi String ctermbg=NONE ctermfg=36 cterm=NONE
     hi Function ctermbg=NONE ctermfg=105 cterm=NONE
     hi Statement ctermbg=NONE ctermfg=202 cterm=NONE
-    hi Operator ctermbg=NONE ctermfg=15
+    hi Operator ctermbg=NONE ctermfg=15 cterm=bold
     hi PreProc ctermbg=NONE ctermfg=105
     hi Type ctermbg=NONE ctermfg=208
     hi StorageClass ctermbg=NONE ctermfg=208
