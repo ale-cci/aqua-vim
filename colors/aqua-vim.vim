@@ -44,7 +44,8 @@ if exists("syntax_on")
     hi VertSplit ctermbg=black ctermfg=238 cterm=NONE
 
     " Pmenu
-    hi Pmenu ctermbg=23
+    hi Pmenu ctermfg=29 ctermbg=234
+
     hi PmenuSel ctermbg=black ctermfg=36 cterm=reverse
     hi PmenuSbar ctermbg=244
     hi PmenuThumb ctermbg=white
@@ -52,9 +53,9 @@ if exists("syntax_on")
     hi Search ctermbg=214 ctermfg=black cterm=none
 
     " Cursorline colors
-    hi CursorLine ctermbg=234 cterm=NONE
-    hi CursorColumn ctermbg=234 cterm=NONE
-    hi ColorColumn ctermbg=234 ctermfg=196 cterm=NONE
+    hi CursorLine ctermbg=233 cterm=NONE
+    hi CursorColumn ctermbg=233 cterm=NONE
+    hi ColorColumn ctermbg=233 ctermfg=196 cterm=NONE
 
     hi DiffDelete ctermbg=88
     hi DiffAdd ctermbg=23
