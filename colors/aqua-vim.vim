@@ -43,6 +43,7 @@ if exists("syntax_on")
     hi Folded ctermfg=23 ctermbg=black cterm=NONE
     hi VertSplit ctermbg=black ctermfg=238 cterm=NONE
 
+    hi SignColumn ctermbg=black
     " Pmenu
     hi Pmenu ctermfg=29 ctermbg=234
 
