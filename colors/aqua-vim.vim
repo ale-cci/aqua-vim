@@ -43,7 +43,7 @@ if exists("syntax_on")
     hi Folded ctermfg=23 ctermbg=black cterm=NONE
     hi VertSplit ctermbg=black ctermfg=238 cterm=NONE
 
-    hi SignColumn ctermbg=black
+    hi SignColumn ctermbg=none
     " Pmenu
     hi Pmenu ctermfg=29 ctermbg=234
 
@@ -54,7 +54,7 @@ if exists("syntax_on")
     hi Search ctermbg=214 ctermfg=black cterm=none
 
     " Cursorline colors
-    hi CursorLine ctermbg=233 cterm=NONE
+    hi CursorLine ctermbg=234 cterm=none
     hi CursorColumn ctermbg=233 cterm=NONE
     hi ColorColumn ctermbg=233 ctermfg=196 cterm=NONE
 
