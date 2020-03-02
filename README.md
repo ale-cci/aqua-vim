@@ -20,5 +20,5 @@ colorscheme aqua-vim
 ### No plugins:
 
 In your vimrc file:
-`:read !https://raw.githubusercontent.com/ale-cci/aqua-vim/master/colors/aqua-vim.vim`
+`:read !curl -s https://raw.githubusercontent.com/ale-cci/aqua-vim/master/colors/aqua-vim.vim`
 
