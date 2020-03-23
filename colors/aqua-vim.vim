@@ -53,6 +53,8 @@ if exists("syntax_on")
 
     hi Search ctermbg=214 ctermfg=black cterm=none
 
+    hi Conceal ctermfg=202 ctermbg=234
+
     " Cursorline colors
     hi CursorLine ctermbg=234 cterm=none
     hi CursorColumn ctermbg=233 cterm=NONE
